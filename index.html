@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RapiWash Laundry | Laundry Bersih, Wangi &amp; Praktis di Semarang</title>
+  <meta name="description" content="Nikmati layanan laundry kiloan, express, setrika, sepatu, dan tas bersama RapiWash Laundry. Hitung estimasi biaya dan ajukan pemesanan melalui WhatsApp.">
+  <meta name="keywords" content="laundry Semarang, laundry kiloan Semarang, laundry express Semarang, laundry antar jemput">
+  <meta name="theme-color" content="#087F75">
+  <link rel="canonical" href="https://rapiwash.example/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="RapiWash Laundry">
+  <meta property="og:title" content="RapiWash Laundry | Laundry Bersih, Wangi &amp; Praktis di Semarang">
+  <meta property="og:description" content="Layanan laundry kiloan, express, setrika, sepatu, dan tas. Hitung estimasi biaya dan pesan lewat WhatsApp.">
+  <meta property="og:url" content="https://rapiwash.example/">
+  <meta property="og:image" content="https://rapiwash.example/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/brand/favicon-512.png">
+
+  <link rel="preload" href="" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#beranda" aria-label="RapiWash Laundry, kembali ke beranda">
+        <img src="assets/brand/rapiwash-logo.svg" width="620" height="160" alt="RapiWash Laundry &amp; Garment Care">
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <ul class="nav-list" id="nav-list"></ul>
+      </nav>
+      <a class="btn btn-primary nav-cta" data-wa data-wa-source="Tombol navbar">
+        <span class="ico i-whatsapp" aria-hidden="true"></span>Pesan Sekarang
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Buka menu navigasi">
+        <span class="ico i-menu" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <nav aria-label="Navigasi seluler">
+        <ul class="mobile-list" id="mobile-list"></ul>
+      </nav>
+      <a class="btn btn-primary btn-block" data-wa data-wa-source="Menu seluler">
+        <span class="ico i-whatsapp" aria-hidden="true"></span>Pesan Sekarang
+      </a>
+    </div>
+  </header>
+
+  <main id="konten">
+
+    <!-- ============ 01 HERO ============ -->
+    <section class="hero" id="beranda" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="hero-blob"></span>
+        <img class="hero-wave" src="assets/decorative/water-wave.svg" alt="" width="1600" height="520">
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge hero-in" style="--d:0ms">
+            <span class="ico i-truck" aria-hidden="true"></span>
+            <span>Gratis antar-jemput mulai <span data-bind="freePickupFromKg">5</span>&nbsp;kg</span>
+          </p>
+          <h1 class="hero-title hero-in" id="hero-title" style="--d:80ms">
+            Bersih Terawat,<br><span class="accent">Waktu Lebih <span class="hero-rotator" id="hero-rotator" aria-label="Hemat"><span class="hero-rotator-word is-active">Hemat</span></span>.</span>
+          </h1>
+          <p class="lead hero-in" style="--d:160ms">
+            Laundry kiloan, express, setrika, sepatu, dan tas dengan hasil bersih, wangi, dan rapi.
+            Pilih layanan, hitung estimasi, lalu pesan lewat WhatsApp.
+          </p>
+          <div class="hero-cta hero-in" style="--d:260ms">
+            <a class="btn btn-primary btn-lg" data-wa data-wa-source="Hero">
+              <span class="ico i-whatsapp" aria-hidden="true"></span>Pesan Sekarang
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#layanan">
+              Lihat Layanan<span class="ico i-arrow-right btn-arrow" aria-hidden="true"></span>
+            </a>
+          </div>
+          <ul class="hero-points hero-in" style="--d:340ms">
+            <li>
+              <span class="point-ico"><span class="ico i-clock" aria-hidden="true"></span></span>
+              <span><strong>Opsi Express</strong><small>Same day / 3 jam</small></span>
+            </li>
+            <li>
+              <span class="point-ico"><span class="ico i-truck" aria-hidden="true"></span></span>
+              <span><strong>Antar-Jemput</strong><small>Gratis mulai <span data-bind="freePickupFromKg">5</span>&nbsp;kg</small></span>
+            </li>
+            <li>
+              <span class="point-ico"><span class="ico i-iron" aria-hidden="true"></span></span>
+              <span><strong>Lipatan Rapi</strong><small>Cuci, setrika, lipat</small></span>
+            </li>
+          </ul>
+          <p class="hero-note hero-in" style="--d:400ms">Harga, promo, dan data bisnis di halaman ini adalah contoh (demo).</p>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="assets/img/hero-laundry.jpg"
+                 width="1200" height="900" fetchpriority="high" decoding="async"
+                 alt="Tumpukan pakaian dan handuk bersih serta rapi di RapiWash Laundry">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 BENEFIT ============ -->
+    <section class="section section-tight section-mint" id="benefit" aria-labelledby="benefit-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="benefit-title">Kenapa Memilih RapiWash?</h2>
+        </div>
+        <ul class="benefit-grid" id="benefit-grid" data-stagger></ul>
+      </div>
+    </section>
+
+    <!-- ============ 03 TENTANG ============ -->
+    <section class="section" id="tentang" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-photo reveal">
+          <img src="assets/img/about-care.jpg"
+               width="1200" height="800" loading="lazy" decoding="async"
+               alt="Perawatan pakaian bersih, wangi, dan terawat bersama RapiWash Laundry">
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">Tentang Kami</p>
+          <h2 id="about-title"></h2>
+          <div id="about-text"></div>
+          <ul class="check-list" id="about-points"></ul>
+          <a class="btn btn-primary" href="#layanan">Lihat Layanan<span class="ico i-arrow-right btn-arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 LAYANAN ============ -->
+    <section class="section section-off" id="layanan" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Layanan</p>
+          <h2 id="services-title">Layanan Laundry untuk Setiap Kebutuhan</h2>
+          <p>Pilih layanan yang paling sesuai. Harga mulai dan estimasi waktu adalah contoh (demo).</p>
+        </div>
+        <div class="service-grid" id="service-grid" data-stagger></div>
+      </div>
+    </section>
+
+    <!-- ============ 05 HARGA ============ -->
+    <section class="section" id="harga" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Daftar Harga</p>
+          <h2 id="pricing-title">Tarif Jelas, Tanpa Kejutan</h2>
+          <p>Seluruh tarif adalah contoh untuk keperluan demo, bukan tarif bisnis nyata.</p>
+        </div>
+        <div class="reveal">
+          <div class="tabs" role="tablist" aria-label="Kategori harga" id="pricing-tabs"></div>
+          <div class="price-panel" id="pricing-panel" role="tabpanel" tabindex="0"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 PROMO ============ -->
+    <section class="section section-off" id="promo" aria-labelledby="promo-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Promo <span class="demo-tag">Demo</span></p>
+          <h2 id="promo-title">Penawaran untuk Pelanggan RapiWash</h2>
+          <p>Contoh promo untuk keperluan demo. Syarat dan ketentuan dapat dibuka pada tiap kartu.</p>
+        </div>
+        <div class="promo-grid" id="promo-grid" data-stagger></div>
+      </div>
+    </section>
+
+    <!-- ============ 07 ESTIMASI ============ -->
+    <section class="section section-mint" id="estimasi" aria-labelledby="estimator-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Estimasi Biaya</p>
+          <h2 id="estimator-title">Hitung Estimasi Biaya Laundry</h2>
+          <p>Pilih layanan dan jumlahnya, total diperbarui otomatis. Ini estimasi, bukan invoice.</p>
+        </div>
+        <div class="estimator reveal">
+          <form class="card est-form" id="est-form" novalidate>
+            <div class="field">
+              <label for="est-service">Layanan</label>
+              <select id="est-service" name="service"></select>
+            </div>
+            <div class="field">
+              <label for="est-qty" id="est-qty-label">Berat (kg)</label>
+              <div class="stepper">
+                <button type="button" class="stepper-btn" data-step="-1" aria-label="Kurangi jumlah"><span class="ico i-minus" aria-hidden="true"></span></button>
+                <input id="est-qty" name="qty" type="text" inputmode="decimal" autocomplete="off" aria-describedby="est-qty-hint est-qty-error">
+                <button type="button" class="stepper-btn" data-step="1" aria-label="Tambah jumlah"><span class="ico i-plus" aria-hidden="true"></span></button>
+              </div>
+              <p class="hint" id="est-qty-hint"></p>
+              <p class="field-error" id="est-qty-error" role="alert"></p>
+            </div>
+            <fieldset class="field est-addon-fieldset">
+              <legend class="est-addon-legend">
+                <span>Tambahan Layanan (Opsional)</span>
+                <small class="est-addon-sub">Pilih opsi tambahan sesuai kebutuhan cucian Anda</small>
+              </legend>
+              <div class="est-addon-group">
+                <label class="check est-addon-card" id="est-fragrance-wrap">
+                  <input type="checkbox" id="est-fragrance" name="fragrance">
+                  <span class="check-box" aria-hidden="true"></span>
+                  <div class="est-addon-info">
+                    <div class="est-addon-head">
+                      <span class="est-addon-title"><span class="ico i-droplet addon-ico" aria-hidden="true"></span>Pewangi Premium</span>
+                      <span class="badge-price" data-bind="fragranceLabel">+Rp2.000/kg</span>
+                    </div>
+                    <small class="est-addon-desc">Aroma harum segar mewah, wangi lebih tahan lama</small>
+                  </div>
+                </label>
+                <label class="check est-addon-card" id="est-pickup-wrap">
+                  <input type="checkbox" id="est-pickup" name="pickup">
+                  <span class="check-box" aria-hidden="true"></span>
+                  <div class="est-addon-info">
+                    <div class="est-addon-head">
+                      <span class="est-addon-title"><span class="ico i-truck addon-ico" aria-hidden="true"></span>Antar-Jemput</span>
+                      <span class="badge-price badge-pickup" id="est-pickup-badge">Gratis / Rp5.000</span>
+                    </div>
+                    <small class="est-addon-desc" id="est-pickup-hint">Gratis mulai 5 kg, di bawahnya Rp5.000</small>
+                  </div>
+                </label>
+              </div>
+            </fieldset>
+            <div class="field" id="est-zone-field" hidden>
+              <label for="est-zone">Lokasi penjemputan</label>
+              <select id="est-zone" name="zone">
+                <option value="in">Dalam radius demo</option>
+                <option value="out">Di luar radius (tanya via WhatsApp)</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-ghost btn-sm" id="est-reset">Atur ulang</button>
+          </form>
+
+          <aside class="card est-result" aria-labelledby="est-result-title">
+            <h3 id="est-result-title">Rincian Estimasi</h3>
+            <dl class="breakdown" id="est-breakdown"></dl>
+            <div class="est-total">
+              <span>Total estimasi</span>
+              <strong id="est-total" aria-hidden="true">Rp0</strong>
+              <span class="sr-only" id="est-total-sr" role="status"></span>
+            </div>
+            <p class="hint" id="est-note">Estimasi, bukan invoice. Tarif contoh (demo).</p>
+            <a class="btn btn-primary btn-block" id="est-order" target="_blank" rel="noopener noreferrer">
+              <span class="ico i-whatsapp" aria-hidden="true"></span>Pesan dengan Estimasi Ini
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 PICKUP ============ -->
+    <section class="section" id="pickup" aria-labelledby="pickup-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Antar-Jemput</p>
+          <h2 id="pickup-title">Jadwalkan Penjemputan Laundry</h2>
+          <p>Isi formulir, lalu WhatsApp akan terbuka dengan pesan yang sudah terisi. Tidak ada data yang disimpan di server.</p>
+        </div>
+        <div class="pickup-grid">
+          <div class="pickup-aside reveal">
+            <div class="pickup-photo">
+              <img src="assets/img/pickup-delivery.jpg"
+                   width="1000" height="800" loading="lazy" decoding="async"
+                   alt="Kurir antar-jemput laundry RapiWash siap menjemput dan mengantar pakaian Anda">
+            </div>
+            <ol class="steps">
+              <li><span class="step-num">1</span><span><strong>Isi formulir</strong><small>Nama, alamat, jadwal, dan layanan.</small></span></li>
+              <li><span class="step-num">2</span><span><strong>Kirim lewat WhatsApp</strong><small>Pesan terisi otomatis, tinggal Anda kirim.</small></span></li>
+              <li><span class="step-num">3</span><span><strong>Tunggu konfirmasi</strong><small>Tim membalas untuk memastikan jadwal dan biaya.</small></span></li>
+            </ol>
+          </div>
+          <form class="card form reveal" id="pickup-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="pk-name">Nama</label>
+                <input id="pk-name" name="name" type="text" autocomplete="name" maxlength="60" required aria-describedby="pk-name-error">
+                <p class="field-error" id="pk-name-error"></p>
+              </div>
+              <div class="field">
+                <label for="pk-phone">Nomor WhatsApp</label>
+                <input id="pk-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0812xxxxxxxx" required aria-describedby="pk-phone-error">
+                <p class="field-error" id="pk-phone-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="pk-service">Layanan</label>
+                <select id="pk-service" name="service" required aria-describedby="pk-service-error"></select>
+                <p class="field-error" id="pk-service-error"></p>
+              </div>
+              <div class="field">
+                <label for="pk-date">Tanggal jemput</label>
+                <input id="pk-date" name="date" type="date" required aria-describedby="pk-date-error">
+                <p class="field-error" id="pk-date-error"></p>
+              </div>
+              <div class="field">
+                <label for="pk-time">Jam jemput</label>
+                <select id="pk-time" name="time" required aria-describedby="pk-time-error"></select>
+                <p class="field-error" id="pk-time-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="pk-address">Alamat penjemputan</label>
+                <textarea id="pk-address" name="address" rows="3" maxlength="250" required aria-describedby="pk-address-error"></textarea>
+                <p class="field-error" id="pk-address-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="pk-notes">Catatan <span class="optional">(opsional)</span></label>
+                <textarea id="pk-notes" name="notes" rows="2" maxlength="300" aria-describedby="pk-notes-error"></textarea>
+                <p class="field-error" id="pk-notes-error"></p>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="pk-submit">
+              <span class="ico i-whatsapp" aria-hidden="true"></span><span class="btn-label">Kirim via WhatsApp</span>
+            </button>
+            <div class="handoff" id="pk-handoff" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 GALERI ============ -->
+    <section class="section section-off" id="galeri" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Galeri</p>
+          <h2 id="gallery-title">Suasana, Proses, dan Hasil</h2>
+          <p>Foto di bawah adalah ilustrasi konsep dan akan diganti dokumentasi usaha Anda.</p>
+        </div>
+        <div class="chips reveal" id="gallery-filters" role="group" aria-label="Filter galeri"></div>
+        <div class="gallery-grid reveal" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ 10 LOKASI ============ -->
+    <section class="section" id="lokasi" aria-labelledby="branch-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Lokasi Cabang</p>
+          <h2 id="branch-title">Kunjungi Outlet Kami</h2>
+          <p>Alamat berikut adalah simulasi dan bukan outlet yang sudah diverifikasi.</p>
+        </div>
+        <div class="branch-grid" id="branch-grid" data-stagger></div>
+      </div>
+    </section>
+
+    <!-- ============ 11 TESTIMONI ============ -->
+    <section class="section section-mint" id="testimoni" aria-labelledby="testi-title">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="eyebrow">Testimoni <span class="demo-tag">Contoh</span></p>
+            <h2 id="testi-title">Apa Kata Pelanggan</h2>
+            <p>Kartu di bawah adalah contoh dan akan diganti ulasan pelanggan asli.</p>
+          </div>
+          <div class="carousel-ctrl" aria-label="Kontrol testimoni">
+            <button type="button" class="icon-btn" id="testi-prev" aria-label="Testimoni sebelumnya"><span class="ico i-chevron-left" aria-hidden="true"></span></button>
+            <span class="carousel-count" id="testi-count" aria-live="polite"></span>
+            <button type="button" class="icon-btn" id="testi-next" aria-label="Testimoni berikutnya"><span class="ico i-chevron-right" aria-hidden="true"></span></button>
+          </div>
+        </div>
+        <div class="carousel reveal" id="testi-carousel" role="region" aria-roledescription="carousel" aria-label="Testimoni pelanggan (contoh)" tabindex="0">
+          <ul class="carousel-track" id="testi-track"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 12 FAQ ============ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Pertanyaan yang Sering Diajukan</h2>
+          <p>Jawaban berikut adalah contoh dan perlu disesuaikan dengan kebijakan usaha Anda.</p>
+        </div>
+        <div class="faq-list reveal" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ 13 KONTAK ============ -->
+    <section class="section section-off" id="kontak" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kontak</p>
+          <h2 id="contact-title">Hubungi RapiWash</h2>
+          <p>Tanyakan layanan, tarif, atau jadwal. Kami siap membantu lewat WhatsApp.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <ul class="contact-list" id="contact-list"></ul>
+            <p class="contact-social-title">Ikuti kami</p>
+            <ul class="social-list" id="contact-social"></ul>
+          </div>
+          <form class="card form reveal" id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="ct-name">Nama</label>
+                <input id="ct-name" name="name" type="text" autocomplete="name" maxlength="60" required aria-describedby="ct-name-error">
+                <p class="field-error" id="ct-name-error"></p>
+              </div>
+              <div class="field">
+                <label for="ct-phone">Nomor WhatsApp</label>
+                <input id="ct-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0812xxxxxxxx" required aria-describedby="ct-phone-error">
+                <p class="field-error" id="ct-phone-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="ct-message">Pesan</label>
+                <textarea id="ct-message" name="message" rows="5" maxlength="500" required aria-describedby="ct-message-error ct-message-count"></textarea>
+                <div class="field-foot">
+                  <p class="field-error" id="ct-message-error"></p>
+                  <p class="hint counter" id="ct-message-count">0/500</p>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="ct-submit">
+              <span class="ico i-whatsapp" aria-hidden="true"></span><span class="btn-label">Kirim via WhatsApp</span>
+            </button>
+            <div class="handoff" id="ct-handoff" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 14 FOOTER ============ -->
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/brand/rapiwash-mark.svg" width="44" height="44" alt="" loading="lazy">
+          <span>Rapi<b>Wash</b></span>
+        </div>
+        <p class="footer-tagline" data-bind="tagline"></p>
+        <p class="footer-demo">Website demo. Seluruh data bisnis adalah simulasi.</p>
+      </div>
+      <nav aria-label="Navigasi footer">
+        <h3>Navigasi</h3>
+        <ul id="footer-nav"></ul>
+      </nav>
+      <div>
+        <h3>Layanan</h3>
+        <ul id="footer-services"></ul>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <ul class="footer-contact" id="footer-contact"></ul>
+        <h3 class="footer-sub">Jam Operasional</h3>
+        <ul id="footer-hours"></ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> RapiWash Laundry (demo). Semua hak dilindungi.</p>
+      <ul class="footer-legal">
+        <li><button type="button" class="link-btn" data-legal="privacy">Kebijakan Privasi</button></li>
+        <li><button type="button" class="link-btn" data-legal="terms">Syarat &amp; Ketentuan</button></li>
+      </ul>
+      <ul class="social-list social-list-footer" id="footer-social"></ul>
+    </div>
+  </footer>
+
+  <!-- Floating -->
+  <a class="fab fab-wa" id="fab-wa" data-wa data-wa-source="Tombol mengambang" aria-label="Chat WhatsApp">
+    <span class="ico i-whatsapp" aria-hidden="true"></span>
+  </a>
+  <button class="fab fab-top" id="fab-top" type="button" aria-label="Kembali ke atas">
+    <span class="ico i-arrow-up" aria-hidden="true"></span>
+  </button>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Penampil foto galeri">
+    <div class="lightbox-inner">
+      <button type="button" class="lb-btn lb-close" id="lb-close" aria-label="Tutup"><span class="ico i-close" aria-hidden="true"></span></button>
+      <button type="button" class="lb-btn lb-prev" id="lb-prev" aria-label="Foto sebelumnya"><span class="ico i-chevron-left" aria-hidden="true"></span></button>
+      <figure class="lb-figure" id="lb-figure">
+        <img id="lb-img" src="" alt="" width="900" height="650">
+        <figcaption><span id="lb-caption"></span><span class="lb-count" id="lb-count"></span></figcaption>
+      </figure>
+      <button type="button" class="lb-btn lb-next" id="lb-next" aria-label="Foto berikutnya"><span class="ico i-chevron-right" aria-hidden="true"></span></button>
+    </div>
+  </dialog>
+
+  <!-- Dialog legal (placeholder) -->
+  <dialog class="legal-dialog" id="legal-dialog" aria-labelledby="legal-title">
+    <div class="legal-inner">
+      <h2 id="legal-title"></h2>
+      <p id="legal-text"></p>
+      <button type="button" class="btn btn-primary" id="legal-close">Tutup</button>
+    </div>
+  </dialog>
+
+  <noscript>
+    <p style="padding:16px;text-align:center">Aktifkan JavaScript untuk melihat layanan, harga, dan formulir. Hubungi kami lewat <a href="https://wa.me/6281257591101">WhatsApp</a>.</p>
+  </noscript>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/util.js" defer></script>
+  <script src="js/render.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/estimator.js" defer></script>
+  <script src="js/forms.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

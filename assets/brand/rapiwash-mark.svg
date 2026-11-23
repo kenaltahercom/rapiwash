@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<title id="title">RapiWash brand mark</title><desc id="desc">A teal water droplet and a stylized white letter R.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0AA69A"/><stop offset="1" stop-color="#087F75"/></linearGradient></defs>
+<path d="M80 8C62 34 26 69 26 101a54 54 0 0 0 108 0C134 69 98 34 80 8Z" fill="url(#g)"/>
+<path d="M54 48h37c23 0 36 12 36 31 0 13-7 23-20 28l22 31h-29l-18-27H78v27H54V48Zm24 21v22h12c8 0 13-4 13-11s-5-11-13-11H78Z" fill="#fff"/>
+<path d="M38 104c4 16 17 27 33 31" fill="none" stroke="#BDEFE8" stroke-width="5" stroke-linecap="round"/>
+</svg>
